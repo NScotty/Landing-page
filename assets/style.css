@@ -85,7 +85,7 @@ button {
     justify-content: center;
     border: 2px solid red;
     background-color: white;
-    gap: 3em;
+    gap: 2em;
 }
 
 h2{
@@ -101,14 +101,46 @@ h2{
     border: 2px solid red;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
 
  .info-image img {
-    width: 100px;
-    height:100px;
+    width: 200px;
+    height:200px;
+
 }
 
 .info-text {
     max-width: 200px;
 }
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding:8em;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+blockquote{
+    font-style: italic;
+    font-weight: light;
+    font-size: 36px;
+    color: #1F2937;
+}
+.reference {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reference p{
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 3em;
+}
+ 
