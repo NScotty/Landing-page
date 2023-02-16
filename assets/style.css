@@ -47,7 +47,7 @@ ul {
     align-items: center ;
 }
 
-section {
+.section1 {
     border: 2px solid red;
     display: flex;
     background-color: #1F2937;
@@ -78,4 +78,37 @@ button {
     border-radius: 25px;
     color: #E5E7EB;
     margin-top: 1em;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    background-color: white;
+    gap: 3em;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: white;
+    padding: 2rem 2rem;
+
+}
+
+.info{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+
+}
+
+ .info-image img {
+    width: 100px;
+    height:100px;
+}
+
+.info-text {
+    max-width: 200px;
 }
