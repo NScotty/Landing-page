@@ -195,3 +195,14 @@ blockquote {
   border: 2px solid #e5e7eb;
   font-weight: bolder;
 }
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+height: auto;
+background-color: #1f2937;
+color: #e5e7eb;
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
