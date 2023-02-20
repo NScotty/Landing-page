@@ -25,10 +25,10 @@ body {
   padding: 2rem;
 }
 
-.logo {
+.logo i{
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 2rem;
   margin-left: 1rem;
   font-weight: bolder;
   color:#f9faf8;
