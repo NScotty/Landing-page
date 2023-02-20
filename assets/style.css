@@ -28,8 +28,10 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 24px;
   margin-left: 1rem;
+  font-weight: bolder;
+  color:#f9faf8;
 }
 
 a,
@@ -72,12 +74,18 @@ h1 {
   
 }
 
+.image img{
+    width:500px;
+    height: auto;
+}
+
 button {
   background-color: #3882f6;
-  padding: 0.5rem;
-  border-radius: 25px;
+  padding: 8px 16px;
+  border-radius: 8px;
   color: #e5e7eb;
   margin-top: 1em;
+  border: none;
 }
 
 .section2 {
@@ -105,6 +113,7 @@ h2 {
 }
 
 .info-image img {
+    border: #3882f6 solid 3px;
   width: 200px;
   height: 200px;
 }
@@ -140,4 +149,49 @@ blockquote {
   font-style: italic;
   font-weight: bold;
   margin-right: 3em;
+}
+
+.section4{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:8em;
+}
+
+.call{
+    width:900px;
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    color:white;
+    padding:2em;
+    border-radius: 8px;
+}
+
+.call-text{
+    width:600px;
+}
+.call-text .section4-title{
+  font-size: larger;
+  background-color: #3882f6;
+  text-align: left;
+  padding: 0;
+}
+.button
+{
+  width:400px;
+  height:50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up {
+  margin-bottom: 1em;
+  background-color: #3882f6;
+  border-radius: 8px;
+  color: #e5e7eb;
+  border: 2px solid #e5e7eb;
+  font-weight: bolder;
 }
