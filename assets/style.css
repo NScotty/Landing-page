@@ -40,6 +40,12 @@ a,
   color: #e5e7eb;
   font-size: 18px;
 }
+a:hover {
+  font-size: larger;
+}
+a:active {
+  color: #3882f6;
+}
 
 ul {
   display: flex;
@@ -56,18 +62,25 @@ ul {
   gap: 2em;
 }
 
+.section1 p{
+  margin-bottom: 1rem;
+}
+
 h1 {
   color: #f9faf8;
   font-size: 3.5rem;
   font-weight: bolder;
+  margin-bottom: 1rem;
 }
 
 .text {
 
   max-width: 600px;
+  margin-top: 1rem;
 }
 
 .image {
+
   display: flex;
   justify-content: center;
   width: 500px;
@@ -120,6 +133,7 @@ h2 {
 
 .info-text {
   max-width: 200px;
+  margin-top: 1rem;
 }
 
 .section3 {
@@ -177,6 +191,7 @@ blockquote {
   background-color: #3882f6;
   text-align: left;
   padding: 0;
+  margin-bottom: .5rem;
 }
 .button
 {
